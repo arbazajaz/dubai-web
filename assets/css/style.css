@@ -1,0 +1,545 @@
+@font-face {
+    font-family: Dubai-Regular;
+    src: url(../fonts/Dubai-Regular.ttf);
+}
+
+@font-face {
+    font-family: Dubai-Bold;
+    src: url(../fonts/Dubai-Bold.ttf);
+}
+a{
+    text-decoration: none !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: #EEF2F7;
+    color: #000;
+    font-size: 16px;
+    font-family: Dubai-Regular;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(8, 14, 20, 0.1);
+    border-radius: 5px;
+    height: 45px;
+    color: #000;
+    font-size: 14px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #0D328D;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 5px;
+    min-width: 160px;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* .discover */
+.discover .bg-yellow {
+    background-color: #94c83c;
+}
+
+.discover .bg-pink {
+    background-color: #298dc2;
+}
+
+.discover .main-heading {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #007a89;
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-family: Dubai-Bold;
+}
+
+.discover .main-h4 {
+    font-size: 18px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    font-family: Dubai-Bold;
+}
+
+.discover .main-para {
+    font-size: 16px;
+}
+
+.discover {
+    background: #cdcdcd;
+}
+
+.discover main {
+    margin: 40px auto;
+}
+
+.discover .container {
+    background-color: #fff;
+    padding: 5px 50px;
+}
+
+/* hero */
+.hero .row {
+    margin-top: 50px;
+}
+
+.hero .image {
+    background: url("../images/1851786.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .one-day-img {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.hero .text h4 {
+    background-image: linear-gradient(90deg, rgba(140, 186, 62, 0) 0%, #8cba3e 100%);
+    color: #ffffff;
+    padding: 4px 4px;
+}
+
+.hero .text p {
+    background-image: linear-gradient(90deg, rgba(50, 132, 185, 0) 0%, #3284b9 100%);
+    color: #ffffff;
+    padding: 4px 8px;
+}
+
+/* specialities section */
+.specialities .card .card-body .one-day {
+    width: 45px;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+}
+
+.specialities .card .card-body h4 {
+    padding: 8px 10px;
+    margin-bottom: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Dubai-Bold;
+}
+
+.specialities h2 {
+    color: #3284b9;
+    margin: 40px 0px 20px 0px;
+}
+
+.specialities .card {
+    margin: 10px 5px;
+}
+
+.specialities .card img.card-img-bottom {
+    height: 180px;
+}
+
+
+/* about  */
+.discover .about .details {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* packages */
+.discover .packages .box {
+    min-height: 130px;
+    background-color: #007d8b;
+    color: white;
+    padding-left: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 30%), 0 5px 5px rgb(0 0 0 / 22%);
+}
+
+.discover .packages .box2 {
+    background-color: #298dc2;
+}
+
+.discover .packages .box3 {
+    background-color: #94c83c;
+}
+
+.discover .packages .main-h4 {
+    padding-top: 15px;
+}
+
+.discover .packages p.main-h4 {
+    font-size: 18px;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-family: Dubai-Regular;
+    color: #ffffff;
+    padding: 0px;
+    padding-left: 5px;
+    font-weight: 500;
+}
+
+.discover .packages p.main-h4 span {
+    font-family: Dubai-Bold;
+}
+
+.discover .packages a.package {
+    background-color: #fff;
+    color: #007a89;
+    padding: 0px 5px;
+    margin-bottom: 10px;
+}
+
+/* faq  */
+
+.discover .faq .height-200 {
+    min-height: 100px;
+}
+
+.discover .faq .main-heading {
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.discover .faq .height-200 .fade {
+    position: absolute;
+    top: 20px;
+}
+
+.discover .faq .height-200 .active {
+    position: relative;
+    top: 20px;
+}
+
+.discover .nav-tabs .active {
+    border: 0px;
+    border-bottom: 8px solid #808080;
+    padding-left: 0px;
+}
+
+.discover .nav-tabs li {
+    padding-left: 0px;
+}
+
+/* footer  */
+.discover footer .container {
+    background-color: transparent;
+}
+
+/* 2 pages */
+body {
+    background-color: #CDCDCD;
+}
+
+.dubai-hospital .list .time-section {
+    background-color: #ffffff;
+}
+
+.dubai-hospital .list .time-section hr {
+    background-color: #DDDDDD;
+    height: 0.5px;
+    margin: 2px 0px;
+}
+
+.dubai-hospital .list .time-section p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #565656;
+    padding: 0px 20px;
+    margin-bottom: 5px;
+}
+
+.dubai-hospital .list .time-section h4 {
+    background-color: #f3f3f3;
+    font-size: 20px;
+    color: #565656;
+    padding: 0px 20px;
+    margin-bottom: 5px;
+}
+
+.dubai-hospital .list .time-section h5 {
+    font-size: 20px;
+    color: #565656;
+    padding: 0px 10px;
+    margin-bottom: 5px;
+}
+
+/* .hour-2 section */
+.dubai-hospital .list .time-section .hour-2 h6 {
+    background-color: #CDCDCD;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.dubai-hospital .list .time-section .hour-2:hover h6,
+.dubai-hospital .list .time-section .hour-2.active h6 {
+    background-color: #007181;
+    color: #ffffff;
+}
+
+.dubai-hospital .list .time-section .hour-2 {
+    background-color: #f3f3f3;
+    opacity: 0.4;
+}
+
+.dubai-hospital .list .time-section .active {
+    opacity: 1;
+}
+
+.dubai-hospital .list .time-section .hour-2:hover,
+.dubai-hospital .list .time-section .hour-2.active {
+    background-color: #ffffff;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.dubai-hospital .list .time-section .hour-2 .btn {
+    background-color: #007181;
+    width: 100%;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+    border-radius: 0;
+    color: #ffffff;
+    display: none;
+    font-weight: bold;
+}
+
+.dubai-hospital .list .time-section .hour-2:hover .btn,
+.dubai-hospital .list .time-section .active .btn {
+    display: block;
+    width: 100%;
+}
+
+
+/* .hour-3 section */
+.dubai-hospital .list .time-section .hour-3 h6 {
+    background-color: #CDCDCD;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.dubai-hospital .list .time-section .hour-3:hover h6,
+.dubai-hospital .list .time-section .hour-3.active h6 {
+    background-color: #2284BB;
+    color: #ffffff;
+}
+
+.dubai-hospital .list .time-section .hour-3 {
+    background-color: #f3f3f3;
+    opacity: 0.4;
+}
+
+.dubai-hospital .list .time-section .hour-3:hover{
+    background-color: #ffffff;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.dubai-hospital .list .time-section .hour-3 .btn {
+    background-color: #2284BB;
+    width: 100%;
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+    border-radius: 0;
+    color: #ffffff;
+    display: none;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.dubai-hospital .list .time-section .hour-3:hover .btn {
+    display: block;
+}
+
+/* .hour-4 section */
+.dubai-hospital .list .time-section .hour-4 h6 {
+    background-color: #CDCDCD;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.dubai-hospital .list .time-section .hour-4:hover h6,
+.dubai-hospital .list .time-section .hour-4.active h6 {
+    background-color: #8BD100;
+    color: #ffffff;
+}
+
+.dubai-hospital .list .time-section .hour-4 {
+    background-color: #f3f3f3;
+    opacity: 0.4;
+}
+
+.dubai-hospital .list .time-section .hour-4:hover {
+    background-color: #ffffff;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.dubai-hospital .list .time-section .hour-4 .btn {
+    background-color: #8BD100;
+    width: 100%;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+    border-radius: 0;
+    color: #ffffff;
+    display: none;
+    font-weight: bold;
+}
+
+.dubai-hospital .list .time-section .active .btn,
+.dubai-hospital .list .time-section .hour-4:hover .btn {
+    display: block;
+}
+
+/* medicine-image section */
+.dubai-hospital .list .medicine-image {
+    background-color: #f3f3f3;
+}
+
+.dubai-hospital .list .medicine-image img {
+    width: 150px;
+}
+
+.dubai-hospital .list .medicine-image .medcare {
+    width: 40px;
+}
+
+.dubai-hospital .list .medicine-image .image {
+    background-color: #ffffff;
+    padding: 40px 10px;
+}
+
+/* footer */
+footer {
+    background-color: #007181;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+footer .line {
+    position: relative;
+}
+
+footer .line::after {
+    content: '';
+    position: absolute;
+    height: 60px;
+    width: 1px;
+    background-color: #ffffff;
+    margin-left: 150px;
+    margin-top: -16px;
+}
+
+
+
+
+/* one-day-services page */
+.one-day-service .one-day {
+    background-color: #ffffff;
+    padding: 70px 120px 70px 47px;
+}
+
+.one-day-service .one-day-btn {
+    padding: 0;
+}
+
+.one-day-service .one-day h2 {
+    color: #007181;
+}
+
+.one-day-service .one-day .btn {
+    padding: 10px 25px;
+    width: 100%;
+    position: absolute;
+    bottom: -22px;
+    left: 0px;
+    font-weight: 400;
+    background-color: #565656;
+    color: #ffffff;
+    border-radius: 0;
+}
+
+
+
+/* Media Query */
+
+@media only screen and (max-width: 1200px) {
+    footer .line::after {
+        margin-left: 98px;
+    }
+
+    @media only screen and (max-width: 992px) {
+        footer .line::after {
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {}
+
+    @media only screen and (max-width: 576px) {
+
+        .discover .container {
+            padding: 25px 15px;
+        }
+
+        .specialities {
+            margin: 40px 0px;
+        }
+
+        .specialities .card {
+            padding: 5px 20px;
+            border: none;
+        }
+
+        .specialities .card .card-body .one-day {
+            top: 68px;
+            left: 33px;
+        }
+
+        /* pages 2 */
+        .one-day-service .one-day {
+            padding: 40px;
+        }
+
+        .one-day-service .one-day .btn {
+            padding: 10px 0px;
+            width: 50%;
+        }
+    }
